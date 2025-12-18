@@ -1,0 +1,45 @@
+@media screen and (min-width: 480px) and (max-width: 955px) {
+    .albums {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .videos {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+    
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .albums {
+        grid-template-columns: 1fr;
+    }
+
+    .videos {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    nav {
+        display: none;
+    }
+    h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 955px) {
+
+    .menu {
+        display: none;
+    }
+}

@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #feffec;
+}
+h1 {
+    font-family: "BBH Hegarty", sans-serif;    
+    font-size: 3rem;
+    color: #feffec;
+}
+
+h2 {
+    font-family: "BBH Hegarty", sans-serif;    
+    font-size: 2.5rem;
+    color:#721c1c;
+}
+
+h3 {  
+    font-family: "Squada One", sans-serif;
+    font-size: 1.5rem;
+    color: #721c1c
+}
+
+p {
+    font-family: "Squada One", sans-serif;
+    font-size: 1.25rem;
+    color:#bf4141;
+}
+
+a {
+    text-decoration: none;
+    color: #feffec;
+    text-align: right;
+    font-family: "Squada One", sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #bf4141;
+    align-items: center;
+    padding: 3rem;
+}
+
+.splash {
+    background-image: url("img/records.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #feffec;
+}
+
+.splash-text {
+    color: #feffec;
+    background-color: #bf4141;
+    padding: 2rem;
+    text-align: center;
+}
+
+.albums {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.videos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.music-videos {
+    background-color: #bf4141;
+}
+
+section {
+    padding: 3rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #721c1c;
+    padding: 2rem;
+}
+
+footer p {
+    color: #feffec;
+}
+
+.music-videos {
+    color: #feffec;
+}
+
+i {
+    color: #feffec;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
